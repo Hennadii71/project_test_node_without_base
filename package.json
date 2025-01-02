@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "node app.js",
+    "startDev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hennadii71",
   "license": "ISC",
   "dependencies": {
+    "detect-file-encoding-and-language": "^2.4.0",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
